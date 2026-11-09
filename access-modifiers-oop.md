@@ -28,11 +28,13 @@ Protected and Readonly
 
 The protected modifier is like a VIP pass. It acts exactly like private, but with one exception: classes that inherit from the parent class (using extends) can still access it. Finally, readonly is used when a property can be seen by anyone, but can never be changed after it is set in the constructor.
 
+
+```typescript
 class Employee {
   protected employeeId: string; 
   readonly hireDate: Date;      
 }
-
+```
 
 Conclusion
 
